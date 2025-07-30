@@ -1,0 +1,76 @@
+/* Add Customer Form Styles */
+.add-customer-form {
+  background: #fff;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44,83,100,0.10);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.add-customer-form h2 {
+  text-align: center;
+  color: #2c5364;
+  margin-bottom: 1.5rem;
+}
+
+.add-customer-form label {
+  display: block;
+  margin-bottom: 0.25rem; 
+  color: #333;
+  font-weight: 700;
+  text-align: left;
+  font-size: medium;
+}
+
+.add-customer-form input,
+.add-customer-form select {
+  width: 100% !important;
+  box-sizing: border-box;
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.75rem; /* more space above input/select (below label) */
+  margin-bottom: 1.5rem; /* space below input/select */
+  border: 1px solid #b0b0b0;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f7f9fa;
+  transition: border 0.2s;
+}
+
+.add-customer-form input:focus,
+.add-customer-form select:focus {
+  border: 1.5px solid #2c5364;
+  width: 100%;
+}
+
+.add-customer-form button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(90deg, #95d5b2 0%, #2c5364 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background 0.2s;
+}
+
+.add-customer-form button[type="submit"]:hover {
+  background: linear-gradient(90deg, #2c5364 0%, #0f2027 100%);
+  transform: scale(1.03);
+  transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}

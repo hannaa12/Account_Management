@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #1b4332, #2d6a4f, #52b788 ); 
+}
+
+h1 {
+  color: #ffffff; 
+  font-size: 3rem;
+  /* text-align: center; */
+  /* justify-content: center;   */
+  align-items: center;    
+  margin-top: 400px;
+}

@@ -1,0 +1,139 @@
+.view-customer-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44, 83, 100, 0.1);
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 95%;
+  overflow-x: auto;
+}
+
+.view-customer-header {
+  background: none;
+  padding: 2rem 0 3rem 0;
+  border-radius: 12px 12px 0 0;
+  margin: -2rem -2rem 2rem -2rem;
+  text-align: center;
+}
+
+.search-input {
+  width: 40%;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}
+
+.search-button {
+  background: #dff9f1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.customer-table th,
+.customer-table td {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.customer-table th {
+  border-bottom: 2px solid #222;
+}
+
+.customer-table tbody tr:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+.customer-name {
+  font-weight: bold;
+}
+
+.view-accounts-button {
+  background: linear-gradient(90deg, #95c1d5 0%, #2c3d64 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.view-accounts-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.edit-icon {
+  cursor: pointer;
+}
+
+.view-accounts-button.create-account {
+  background: linear-gradient(90deg, #95d5b2 0%, #2c5364 100%);
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+}
+
+.view-accounts-button:hover {
+  background: linear-gradient(90deg, #2e5465 0%, #5e94ab 100%);
+  color: #fff;
+  transform: scale(1.07);
+  box-shadow: 0 4px 16px rgba(44, 83, 100, 0.18);
+  transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.view-accounts-button.create-account:hover {
+  background: linear-gradient(90deg, #5e94ab 0%, #2e5465 100%);
+  color: #fff;
+  transform: scale(1.07);
+  transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+.pagination-arrow {
+  background: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 100%;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.pagination-arrow:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-arrow:hover:not(:disabled) {
+  background: #495057;
+  transform: scale(1.12);
+}
+
+.pagination-info {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #222;
+}
